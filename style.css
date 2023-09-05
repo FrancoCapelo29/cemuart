@@ -14,8 +14,9 @@ body{
 .contenedor-logos{
     display: flex;
     background-color: #cec3c3;
-margin-top: -61px;
+    margin-top: -61px;
     padding-top: 1%;
+    height: 170px;
 } 
 .logo{
     width: 50%;
@@ -28,9 +29,9 @@ margin-top: -61px;
 
 /*barra-menu*/
 .contenedor-menu{
-    text-align: center;
-    padding: 25px 0;
+    padding: 20px 0;
     background-color: black;
+    justify-content: space-between;
 }
 nav a{
     display: inline-block;
@@ -46,18 +47,23 @@ nav a:hover{
 /*pag-principal*/
 .video-pin{
     display: flex;
-    justify-content: left;
-    margin-top: 10%;
+    width: 500px;
+    margin-top: 5%;
     padding-left: 5%;
 }
 .historia{
     color: #ffff;
     display: flex;
     justify-content: right;
-    padding-right: 5%;
-    margin-top: -15%;
+    padding-right: 3%;
+    margin-top: -360px;   
 }
 .historia p{
     background-color: #e868287a;
     font-size: 1.5rem;
+    text-align: center;
+    padding-top: 100px;
+    height: 400px;
+    width: 650px;
+    border-radius: 10px;
 }
